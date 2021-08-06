@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.gin.bytecode.enhancement.aspectj.AccountAspect"/>
+        <weaver options="-verbose -showWeaveInfo">
+            <include within="com.gin.bytecode.enhancement.aspectj.*"/>
+        </weaver>
+    </aspects>
+</aspectj>
